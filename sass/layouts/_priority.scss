@@ -1,6 +1,9 @@
 .priority {
+    display: flex;
+    gap: 30px;
+}
 
-&__titel {
+.priority__titel {
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -9,33 +12,27 @@
     margin-bottom: 10px;
 }
 
-&__list {
-    display: flex;
-    gap: 30px;
-}
-
-&__text {
+.priority__text {
     line-height: calc(24 / 14);
     color: var(--second-txt-color);
 }
-}
 
-.feature {
+
+.priority__icon-box {
     height: 120px;
     background-color: var(--accent-bg-color);
     display: flex;
     margin-bottom: 30px;
     align-items: center;
     justify-content: center;
-
-    &__icon {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        margin-right: 0;
-    }
 }
+.priority__icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0;
+   }
 
-.benefis {
+.section {
     @extend %section;
 }

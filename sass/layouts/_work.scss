@@ -1,16 +1,16 @@
-.work  {
 
-&__list {
+
+.work {
     display: flex;
     gap: var(--indent);
 }
 
-&__item {
+.work__item {
     position: relative;
     flex-basis: calc((100% - var(--indent) * (var(--item) - 1)) / var(--item));
 }
 
-&__overlay {
+.work__overlay {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -22,18 +22,14 @@
     justify-content: center;
 }
 
-&__dscr {
+.work__dscr {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--light-txt-color);
 }
 
-&__titel {
-    @extend %titel;
-}
-}
 
-.work-section {
+.section--not-paddng-top {
     padding-top: 0;
     padding-bottom: 94px;
 }

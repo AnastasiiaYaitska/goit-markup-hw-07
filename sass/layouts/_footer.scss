@@ -108,15 +108,16 @@
 .follow {
     display: flex;
     flex-direction: column;
+}
 
-&-dsc {
+.follow-dsc {
     text-transform: uppercase;
     color: var(--light-txt-color);
     display: block;
     margin-bottom: 20px;
 }
 
-&-input {
+.follow-input {
     width: 358px;
     height: 50px;
     background-color: var(--main-bg-color);
@@ -128,7 +129,7 @@
     color: var(--light-txt-color);
 }
 
-&-btn {
+.follow-btn {
     width: 200px;
     height: 50px;
     background: var(--blue-accent);
@@ -147,13 +148,13 @@
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;
 }
-&-wrapper {
+.follow-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 12px;
 }
-}
+
 
 .paper-airplan-icon {
     fill: currentColor;

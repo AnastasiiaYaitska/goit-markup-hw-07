@@ -1,21 +1,19 @@
 
-.fast-clients {
-    @extend %titel;
 
-&__list {
+.clients {
     display: flex;
     gap: var(--indent);
 }
 
-&__item {
+.clients__item {
     --item: 6;
     flex-basis: calc((100% - var(--indent) * (var(--item) - 1)) / var(--item));
 }
-&__logo {
+.clients__logo {
     fill: currentColor;
 }
 
-&__group {
+.clients__link {
     width: 170px;
     height: 92px;
     border: 1px solid var(--icon-color);
@@ -35,7 +33,7 @@
 }
 }
 
-}
+
 
 .clients-section {
     @extend %section;
